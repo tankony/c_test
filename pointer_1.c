@@ -2,7 +2,7 @@
 
 void main(int argc, char* argv[]) 
 {
-	printf("test script\n");
+	printf("test script1------\n");
 
 	int* nump;
 	int num = 36;
@@ -18,5 +18,10 @@ void main(int argc, char* argv[])
 
 
 	printf("%d, %s\n", argc, argv[1]);
+
+	printf("test script2------\n");
+
+	printf("%p, %d\n", &*nump, *&num);
+
 }
 
